@@ -99,13 +99,20 @@ button{
     width: 100%;
     height: 40px;
     border-radius: 40px;
-    background: #fff;
-    border: none;
+    background: transparent;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.5);
     outline: none;
     cursor: pointer;
     font-size: 1em;
     font-weight: 600px;
 }
+button:hover{
+    background: transparent;
+    color: #ffffff;
+    border: 2px solid #fff;
+    transition: 0.1s;
+    }
 
 .register{
     font-size: .9em;
@@ -121,4 +128,7 @@ button{
 .register p a:hover{
     text-decoration: underline;
 
+}
+.forget label input[type=checkbox]{
+    color: red;
 }
